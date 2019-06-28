@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" > <Document>
+<name>xmlns="http://www.opengis.net/kml/2.2"</name>
+<description></description>
+<Style id="yellowLineGreenPoly1"><visibility>1</visibility><LineStyle> <color>7f7fff00</color> <width>4</width> </LineStyle> <PolyStyle> <color>7f00ff00</color> </PolyStyle> </Style>
+<Style id="yellowLineGreenPoly2"><visibility>1</visibility><LineStyle> <color>7f3aeeb3</color> <width>4</width> </LineStyle> <PolyStyle> <color>7f00ff00</color> </PolyStyle> </Style>
+<Style id="yellowLineGreenPoly3"><visibility>1</visibility><LineStyle> <color>7f00758b</color> <width>4</width> </LineStyle> <PolyStyle> <color>7f00ff00</color> </PolyStyle> </Style>
+<Style id="yellowLineGreenPoly4"><visibility>1</visibility><LineStyle> <color>7f6a6aff</color> <width>4</width> </LineStyle> <PolyStyle> <color>7f00ff00</color> </PolyStyle> </Style>
+<Style id="yellowLineGreenPoly5"><visibility>1</visibility><LineStyle> <color>7f8b658b</color> <width>4</width> </LineStyle> <PolyStyle> <color>7f00ff00</color> </PolyStyle> </Style>
+<Style id="yellowLineGreenPoly6"><visibility>1</visibility><LineStyle> <color>7f2626cd</color> <width>4</width> </LineStyle> <PolyStyle> <color>7f00ff00</color> </PolyStyle> </Style>
+<Style id="yellowLineGreenPoly7"><visibility>1</visibility><LineStyle> <color>7f000000</color> <width>4</width> </LineStyle> <PolyStyle> <color>7f00ff00</color> </PolyStyle> </Style>
+<Style id="point1"><IconStyle><color>7f7fff00</color> <scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href></Icon></IconStyle><ListStyle></ListStyle></Style>
+<Style id="point2"><IconStyle><color>7f3aeeb3</color> <scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href></Icon></IconStyle><ListStyle></ListStyle></Style>
+<Style id="point3"><IconStyle><color>7f00758b</color> <scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href></Icon></IconStyle><ListStyle></ListStyle></Style>
+<Style id="point4"><IconStyle><color>7f6a6aff</color> <scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href></Icon></IconStyle><ListStyle></ListStyle></Style>
+<Style id="point5"><IconStyle><color>7f8b658b</color> <scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href></Icon></IconStyle><ListStyle></ListStyle></Style>
+<Style id="point6"><IconStyle><color>7f2626cd</color> <scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href></Icon></IconStyle><ListStyle></ListStyle></Style>
+<Style id="point7"><IconStyle><color>7f000000</color> <scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href></Icon></IconStyle><ListStyle></ListStyle></Style>
+<Style id="BS"><IconStyle><color>7f000000</color> <scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href></Icon></IconStyle><ListStyle></ListStyle></Style>
+<Placemark>
+    <name>БС 722 -71.02 dBm</name>
+    <styleUrl>#point2</styleUrl>
+    <Point>
+        <tessellate>1</tessellate>
+        <coordinates>30.589334,59.653437</coordinates>
+    </Point>
+</Placemark>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589294,59.653424</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -73.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589275,59.653403</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -69.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589251,59.653383</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589287,59.653395</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -73.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589343,59.653437</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -75.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589414,59.653483</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -67.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589478,59.653527</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -75.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589524,59.653561</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -65.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589641,59.653617</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589801,59.653714</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -67.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589977,59.653817</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -67.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.590147,59.653914</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -65.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.590319,59.654002</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -67.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.59051,59.654101</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.590673,59.654177</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -75.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.590843,59.654293</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -67.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.590924,59.65441</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.591101,59.654498</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -65.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.591252,59.654552</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -69.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.591436,59.654628</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -69.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.59161,59.654716</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -75.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.591771,59.654793</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -69.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.591993,59.654869</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.592173,59.654965</coordinates></Point></Placemark>
+<Placemark>
+    <name>БС 722 -69.02 dBm</name>
+    <styleUrl>#point2</styleUrl>
+    <Point>
+        <tessellate>1</tessellate>
+        <coordinates>30.592393,59.655064</coordinates>
+    </Point>
+</Placemark>
+<Placemark> <name>БС 722 -73.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.592595,59.655166</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -65.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.59281,59.655278</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -73.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.593067,59.655394</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -69.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.593392,59.655548</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -69.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.593812,59.655714</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -73.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.594042,59.655832</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -73.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.594183,59.655885</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -69.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.594317,59.655992</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -69.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.594513,59.656103</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.594666,59.656254</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.594803,59.656363</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -75.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.594927,59.65642</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -73.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.595104,59.656504</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -77.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.595381,59.656606</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.595622,59.65669</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -75.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.595869,59.656782</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.596081,59.65692</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -75.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.596264,59.657039</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.59649,59.657137</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -75.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.596766,59.657238</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -75.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.597115,59.657324</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.597414,59.65733</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -73.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.597705,59.657356</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -79.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.597788,59.657404</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -73.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.597956,59.657471</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -77.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.598147,59.657562</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -79.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.598372,59.657671</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -75.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.598684,59.657828</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -77.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.599106,59.657994</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -77.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.599619,59.658217</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -77.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.600142,59.658447</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -77.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.600693,59.658719</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -77.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.601273,59.658977</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -81.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.601709,59.659241</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -79.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.602114,59.659492</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -83.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.602557,59.659733</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -75.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.603062,59.659961</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -73.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.603634,59.660187</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -73.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.604323,59.660366</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -77.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.605047,59.660547</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -73.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.605785,59.660737</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -81.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.606551,59.660922</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -81.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.607327,59.661088</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -85.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.608106,59.661268</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -85.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.608899,59.66147</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.609696,59.661677</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -85.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.610456,59.661871</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.611177,59.662114</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.611807,59.66237</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.612317,59.66262</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.612692,59.662812</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.612859,59.662911</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -85.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.612977,59.662999</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.613046,59.663097</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.61311,59.663185</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.613151,59.663249</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.613239,59.663319</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.613301,59.663392</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.613378,59.663478</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.6134,59.663552</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.613433,59.663677</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.613516,59.663815</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.613617,59.663958</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.613727,59.664121</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.613964,59.664303</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614208,59.664501</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.61446,59.664697</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614758,59.664896</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.615124,59.665127</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.615613,59.665376</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.616181,59.665615</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.616903,59.665865</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.617577,59.666084</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.618141,59.666239</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.618681,59.666331</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.619244,59.666408</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.619731,59.666438</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.620073,59.666468</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.620332,59.666489</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.620666,59.666479</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.621155,59.666488</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.621756,59.666468</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.622465,59.666455</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -85.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.623236,59.666453</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -85.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.62401,59.666448</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -81.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.624783,59.666446</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -83.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.625544,59.666439</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -81.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.626336,59.666433</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -77.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.627162,59.666431</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -79.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.627985,59.66644</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -85.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.628861,59.666488</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.629717,59.66659</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.63055,59.666729</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.631359,59.666893</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.632066,59.667114</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.632752,59.667345</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.633439,59.667586</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.634116,59.667838</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.634793,59.668088</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.635502,59.668322</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.636287,59.668508</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.63712,59.668644</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.637915,59.668767</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.638672,59.66887</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.639357,59.66904</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.639916,59.66927</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.640399,59.669492</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.640792,59.669662</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.641197,59.669713</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.641609,59.669632</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64203,59.669457</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.642542,59.669176</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.643143,59.668861</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.643867,59.668513</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.644588,59.668124</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.645364,59.66771</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.646119,59.667314</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.646881,59.666919</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647619,59.666528</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648348,59.666154</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.649036,59.665797</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.649658,59.665473</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.65018,59.665191</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.650626,59.664955</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.650995,59.664774</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651232,59.664676</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651324,59.664647</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -109.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651315,59.664648</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651331,59.664653</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651328,59.664655</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -111.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651348,59.664656</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651346,59.664662</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -107.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651367,59.664665</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651388,59.664669</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651414,59.66467</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651435,59.664672</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -109.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651454,59.664675</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651467,59.664679</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651484,59.664684</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651502,59.664684</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651518,59.664686</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651535,59.664688</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651554,59.664691</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651569,59.664692</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651583,59.664696</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.65159,59.664698</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651571,59.664701</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651595,59.664712</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651628,59.664714</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651664,59.664717</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651689,59.664721</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651697,59.664725</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651698,59.664728</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651707,59.664736</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651703,59.664745</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651684,59.664746</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651696,59.664741</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651681,59.664745</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651674,59.664758</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651678,59.664777</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651664,59.664772</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651654,59.664766</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651634,59.664754</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.65168,59.664711</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.65184,59.664615</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651958,59.664611</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651912,59.664701</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651637,59.664836</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.651227,59.665038</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.650702,59.665315</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.650107,59.665629</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.649428,59.66598</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648764,59.666324</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648151,59.666652</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647623,59.666942</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647343,59.667177</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64748,59.667385</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647807,59.667568</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648094,59.667753</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648316,59.66796</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648423,59.668127</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648438,59.668226</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648429,59.668287</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648428,59.66828</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648432,59.668289</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648442,59.668326</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648449,59.668316</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648434,59.668313</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648449,59.668289</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648468,59.66831</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648472,59.668323</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648481,59.66833</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648486,59.668332</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648492,59.668334</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648487,59.668324</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648376,59.66835</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.6483,59.668376</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648203,59.668385</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648102,59.668421</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.648032,59.66845</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647991,59.668453</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647952,59.668461</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647916,59.668458</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647901,59.668438</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64788,59.668417</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647862,59.668394</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647848,59.66837</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64784,59.668341</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647841,59.668305</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647853,59.668289</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647842,59.668275</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647836,59.668255</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647844,59.668225</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647836,59.668223</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647811,59.66824</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647783,59.668258</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64783,59.668189</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647904,59.668094</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647901,59.668092</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647894,59.668092</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647882,59.668102</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647852,59.668126</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647823,59.668142</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647788,59.668168</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647756,59.668184</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647734,59.6682</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647712,59.668206</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647696,59.668213</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647681,59.668219</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647679,59.668214</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647681,59.668197</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647692,59.668163</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647672,59.668182</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64767,59.668172</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647654,59.668183</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647645,59.668186</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647651,59.66818</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64765,59.668184</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647659,59.668192</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647687,59.668159</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647705,59.668146</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647715,59.668144</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64774,59.668108</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647752,59.668107</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64777,59.668086</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647785,59.668054</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647795,59.668017</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647799,59.667991</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647814,59.667971</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647802,59.66799</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647792,59.668033</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647773,59.668061</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647775,59.668071</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647801,59.668089</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647805,59.668105</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647805,59.668119</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647807,59.668131</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64782,59.668148</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64783,59.668151</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647845,59.668147</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647846,59.66815</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647836,59.668142</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647846,59.668155</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647846,59.668166</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647853,59.668179</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647823,59.668194</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647779,59.668187</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647772,59.668189</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647764,59.668198</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647755,59.668195</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647755,59.668201</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647751,59.668193</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647745,59.668183</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647741,59.66818</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647735,59.668176</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647736,59.668155</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647744,59.668145</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647747,59.668131</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647756,59.668126</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647756,59.668122</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647757,59.668121</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647763,59.668123</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647766,59.668124</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647769,59.668125</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647774,59.668127</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647777,59.668129</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647779,59.668131</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647781,59.668133</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647785,59.668137</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647789,59.66814</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647792,59.668143</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647794,59.668145</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647795,59.668145</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647795,59.668146</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647794,59.668145</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647797,59.668146</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647792,59.668146</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647784,59.668145</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64778,59.668145</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64778,59.668147</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64778,59.668148</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647778,59.668149</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647778,59.668149</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647779,59.668151</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647775,59.668152</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647771,59.66815</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647766,59.668145</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647766,59.668148</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64776,59.668146</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647756,59.668142</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647755,59.668141</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647756,59.66814</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647757,59.668139</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647757,59.668137</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647757,59.668135</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647755,59.668133</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647753,59.668129</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647749,59.668122</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647745,59.668117</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647745,59.668118</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647745,59.668121</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647746,59.668123</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647747,59.668126</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647744,59.668126</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647742,59.668125</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64774,59.668124</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647738,59.668123</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647736,59.668123</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647733,59.668119</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64773,59.66812</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647725,59.668117</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647723,59.668114</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647718,59.668105</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647713,59.668098</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647709,59.668094</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64771,59.668095</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647711,59.668095</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647713,59.668098</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647714,59.6681</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647715,59.6681</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647717,59.668103</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647719,59.668103</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647722,59.668104</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647724,59.668106</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647726,59.668107</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647728,59.668108</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647729,59.668109</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647732,59.668108</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647736,59.668108</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647739,59.668108</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647742,59.668108</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647747,59.668111</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647751,59.668114</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647754,59.668118</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647757,59.668122</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647757,59.668122</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647759,59.668123</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647761,59.668127</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647763,59.66813</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647766,59.668133</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647768,59.668137</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647767,59.668139</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647763,59.668139</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647762,59.668141</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647761,59.668141</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64776,59.668142</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64776,59.668148</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647763,59.668151</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647763,59.668154</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647763,59.668154</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647763,59.668154</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647763,59.668155</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647764,59.668156</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64776,59.668158</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647756,59.668159</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647751,59.66816</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647749,59.668161</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647748,59.668161</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647734,59.668164</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647641,59.668194</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64745,59.668214</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64726,59.668186</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.647092,59.668129</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.646927,59.668065</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64677,59.667991</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.646613,59.667922</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.646444,59.667852</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -107.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.646258,59.667779</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.645967,59.66771</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.645584,59.667753</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.645198,59.667946</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.644782,59.668174</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64427,59.668428</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64369,59.668732</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.643076,59.669059</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.642414,59.669416</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.641765,59.669772</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.641116,59.670135</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.640458,59.670496</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -83.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.63978,59.670857</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -87.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.639091,59.671223</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.638383,59.671605</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -85.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.637676,59.671987</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.636979,59.672368</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -85.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.636276,59.672752</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.635573,59.673137</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.634866,59.673519</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.634158,59.673902</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.633454,59.674275</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.632732,59.674641</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.632019,59.674997</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.631348,59.675367</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.630674,59.675717</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.630019,59.676084</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.629358,59.676438</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.628687,59.676803</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -89.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.627998,59.677194</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.627299,59.677584</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -91.02 dBm</name> <styleUrl>#point4</styleUrl><Point><tessellate>1</tessellate><coordinates>30.626613,59.677971</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.625924,59.678359</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.625239,59.678736</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.624541,59.679096</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.623853,59.679455</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.623176,59.679822</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.622494,59.680178</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.621805,59.680537</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.621114,59.680902</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -93.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.620437,59.681272</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.61976,59.681624</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -95.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.619106,59.681962</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.61847,59.682323</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.617826,59.682682</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.617172,59.683045</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.616571,59.683399</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.616075,59.683635</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.615695,59.683835</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.615378,59.684</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.615136,59.684141</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614894,59.684277</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.6147,59.684403</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614592,59.684461</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614571,59.684487</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614548,59.68448</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614536,59.684482</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -97.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614499,59.684518</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614468,59.684559</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614458,59.684564</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -107.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614458,59.684566</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -109.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614447,59.684558</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -109.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614432,59.684549</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614397,59.684539</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614391,59.684544</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614379,59.684558</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614357,59.684568</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614313,59.68458</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614193,59.684618</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614046,59.684662</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.613882,59.684729</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.613696,59.684815</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.613459,59.684935</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.613169,59.685099</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.612865,59.68526</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.612609,59.685436</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.612558,59.685578</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.612855,59.685705</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.61332,59.685844</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.613846,59.685989</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614376,59.686155</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.614964,59.68633</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.61561,59.686496</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.616271,59.686678</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.616944,59.686863</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.617638,59.687047</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.618318,59.687226</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.61902,59.687388</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.619756,59.687536</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.62054,59.687665</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.621372,59.687741</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.622258,59.687753</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.623171,59.687754</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.624036,59.687764</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.624922,59.687772</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.625801,59.687782</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.626681,59.687786</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.627573,59.687773</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.628492,59.68777</coordinates></Point></Placemark>
+<Placemark> <name>БС 717 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.629406,59.687795</coordinates></Point></Placemark>
+<Placemark> <name>БС 717 -107.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.630303,59.687845</coordinates></Point></Placemark>
+<Placemark> <name>БС 717 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.631189,59.687903</coordinates></Point></Placemark>
+<Placemark> <name>БС 717 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.632055,59.68798</coordinates></Point></Placemark>
+<Placemark> <name>БС 717 -107.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.632936,59.688056</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.633802,59.688136</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.634645,59.688209</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.635474,59.688263</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.636276,59.688327</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.637049,59.688382</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.637793,59.688452</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.638532,59.688533</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.639227,59.688597</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.639885,59.688667</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64046,59.688747</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.640843,59.688818</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.640948,59.68897</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.640919,59.689151</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64089,59.689347</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.640851,59.689528</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.640783,59.689734</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.640675,59.689971</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.640594,59.690198</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.640545,59.690365</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.640503,59.690484</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.64047,59.690586</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.640407,59.6907</coordinates></Point></Placemark>
+<Placemark> <name>БС 0 Loss of Signal</name> <styleUrl>#point7</styleUrl><Point><tessellate>1</tessellate><coordinates>30.640342,59.690903</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.640263,59.691138</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.640163,59.69142</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.640054,59.691743</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.639934,59.69209</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.63982,59.692438</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.639701,59.69279</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -105.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.639579,59.693137</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.639461,59.693485</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -103.02 dBm</name> <styleUrl>#point6</styleUrl><Point><tessellate>1</tessellate><coordinates>30.639342,59.693828</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.639218,59.694179</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.639093,59.694531</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.638978,59.694873</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.63887,59.695194</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -99.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.638762,59.695487</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.638648,59.695773</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.638537,59.696092</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -101.02 dBm</name> <styleUrl>#point5</styleUrl><Point><tessellate>1</tessellate><coordinates>30.638424,59.69641</coordinates></Point></Placemark>
+</Document> </kml>

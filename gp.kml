@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"> <Document>
+<name>namennm</name>
+<description></description>
+<Style id="yellowLineGreenPoly1"><visibility>1</visibility><LineStyle> <color>7f7fff00</color> <width>4</width> </LineStyle> <PolyStyle> <color>7f00ff00</color> </PolyStyle> </Style>
+<Style id="yellowLineGreenPoly2"><visibility>1</visibility><LineStyle> <color>7f3aeeb3</color> <width>4</width> </LineStyle> <PolyStyle> <color>7f00ff00</color> </PolyStyle> </Style>
+<Style id="yellowLineGreenPoly3"><visibility>1</visibility><LineStyle> <color>7f00758b</color> <width>4</width> </LineStyle> <PolyStyle> <color>7f00ff00</color> </PolyStyle> </Style>
+<Style id="yellowLineGreenPoly4"><visibility>1</visibility><LineStyle> <color>7f6a6aff</color> <width>4</width> </LineStyle> <PolyStyle> <color>7f00ff00</color> </PolyStyle> </Style>
+<Style id="yellowLineGreenPoly5"><visibility>1</visibility><LineStyle> <color>7f8b658b</color> <width>4</width> </LineStyle> <PolyStyle> <color>7f00ff00</color> </PolyStyle> </Style>
+<Style id="yellowLineGreenPoly6"><visibility>1</visibility><LineStyle> <color>7f2626cd</color> <width>4</width> </LineStyle> <PolyStyle> <color>7f00ff00</color> </PolyStyle> </Style>
+<Style id="yellowLineGreenPoly7"><visibility>1</visibility><LineStyle> <color>7f000000</color> <width>4</width> </LineStyle> <PolyStyle> <color>7f00ff00</color> </PolyStyle> </Style>
+<Style id="point1"><IconStyle><color>7f7fff00</color> <scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href></Icon></IconStyle><ListStyle></ListStyle></Style>
+<Style id="point2"><IconStyle><color>7f3aeeb3</color> <scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href></Icon></IconStyle><ListStyle></ListStyle></Style>
+<Style id="point3"><IconStyle><color>7f00758b</color> <scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href></Icon></IconStyle><ListStyle></ListStyle></Style>
+<Style id="point4"><IconStyle><color>7f6a6aff</color> <scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href></Icon></IconStyle><ListStyle></ListStyle></Style>
+<Style id="point5"><IconStyle><color>7f8b658b</color> <scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href></Icon></IconStyle><ListStyle></ListStyle></Style>
+<Style id="point6"><IconStyle><color>7f2626cd</color> <scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href></Icon></IconStyle><ListStyle></ListStyle></Style>
+<Style id="point7"><IconStyle><color>7f000000</color> <scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href></Icon></IconStyle><ListStyle></ListStyle></Style>
+<Style id="BS"><IconStyle><color>7f000000</color> <scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href></Icon></IconStyle><ListStyle></ListStyle></Style>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589334,59.653437</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589294,59.653424</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -73.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589275,59.653403</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -69.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589251,59.653383</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589287,59.653395</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -73.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589343,59.653437</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -75.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589414,59.653483</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -67.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589478,59.653527</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -75.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589524,59.653561</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -65.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589641,59.653617</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589801,59.653714</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -67.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.589977,59.653817</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -67.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.590147,59.653914</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -65.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.590319,59.654002</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -67.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.59051,59.654101</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.590673,59.654177</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -75.02 dBm</name> <styleUrl>#point3</styleUrl><Point><tessellate>1</tessellate><coordinates>30.590843,59.654293</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -67.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.590924,59.65441</coordinates></Point></Placemark>
+<Placemark> <name>БС 722 -71.02 dBm</name> <styleUrl>#point2</styleUrl><Point><tessellate>1</tessellate><coordinates>30.591101,59.654498</coordinates></Point></Placemark>
+</Document> </kml>
