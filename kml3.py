@@ -11,15 +11,20 @@ gis = '{http://www.opengis.net/kml/2.2}'
 
 # for point in root.findall('.//'+gis+'coordinates'):
 #     print(point.text)
-for placemark in root.findall('.//'+gis+'Placemark'):
+"""for placemark in root.findall('.//'+gis+'Placemark'):
     # print(placemark)
     for point in placemark.findall(gis+'Point/'):
         #print ('-> ',point.tag, point.attrib, point.text)
         print ('-> ', point.text)
         for coord in point.findall('.//'+gis+'coordinates'):
             print(coord.text)
-def point:
-
+            """
+def pointo():
+    for placemark in root.findall('.//'+gis+'Placemark'):
+        for point in placemark.findall(gis+'Point/'):
+        #print ('-> ',point.tag, point.attrib, point.text)
+            print ('-> ', point.text)
+print(pointo())
 
         # inPoint = point.find('.//'+gis+'coordinates')
         # print(placemark, inPoint)
