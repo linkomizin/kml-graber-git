@@ -18,6 +18,7 @@ for placemark in root.findall('.//'+gis+'Placemark'):
         print ('-> ', point.text)
         for coord in point.findall('.//'+gis+'coordinates'):
             print(coord.text)
+def point:
 
 
         # inPoint = point.find('.//'+gis+'coordinates')
