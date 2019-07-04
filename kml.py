@@ -19,8 +19,8 @@ for root_2 in root.findall('./' + PPP + 'Document/' + PPP + 'Placemark/'):
     # print ('|--> ', root_2.tag, '  ', root_2.attrib)
     for root_3 in root_2.findall('.'):
 
-        coord = root_3.findall(PPP + 'coordinates')
-        print ('|--> ',root_3.tag, coord)
+        coord = root_3.findall('.//' + PPP + 'coordinates')
+        print ('|--> ',root_3.tag, coord, root_3.text)
         for root_4 in root_3:
             print('---++|->  ', root_4.text)
 
