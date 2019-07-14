@@ -25,7 +25,6 @@ if __name__ == '__main__':
     fname = "gps.xml"
 
     k = kml.KML()
-    f = kml.Placemark()
     with open(fname,"rb") as kmlFile:
         k.from_string(kmlFile.read())
 

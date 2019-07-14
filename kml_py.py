@@ -20,7 +20,7 @@ with open(r"gps.xml", "rb") as file_kml:
 
 
 
-    print (f2[0].geometry)
+    print (f2[0].name ,f2[0].geometry)
 
 
     # print (f2[0].description)
