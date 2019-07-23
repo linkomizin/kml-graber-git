@@ -9,14 +9,14 @@ with open(r"gps.xml", "rb") as file_kml:
     doc= file_kml.read()
     k.from_string(doc)
     features = list(k.features())
-    print (len(features))
+    # print (len(features))
 
     # print (features[0].features())
 
     f2 = list(features[0].features())
-    print (len(f2))
+    # print (len(f2))
 
-    # k._features.0._fetures.000
+    # k._features.0._features.000
 
 
 
