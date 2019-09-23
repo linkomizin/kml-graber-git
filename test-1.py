@@ -23,6 +23,8 @@ if __name__ == '__main__':
             count
             count = 1 + count
             print (f2[count].name, f2[count].geometry)
-        coordinates =  f2[count].geometry
-        print(coordinates[6:])
+        coordinates =  str(f2[count].geometry)
+        print (coordinates[6:])
+        coordinates = (coordinates[6:])
         
+        print (coordinates.replace('(','').replace(')','').replace(' ',','))
