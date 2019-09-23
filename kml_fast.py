@@ -8,19 +8,6 @@ def print_child_features(element):
         print (feature.name)
         print_child_features(feature)
 
-def print_geometry(element):
-    if not getattr(element, 'features', None):
-        return
-    for feature in element.features():
-
-        print (feature.coordinates)
-        print_geometry(feature)
-
-
-    # for feature in element.features():
-    #     for pointo in element.Placemark():
-    #         print (pointo.geometry)
-    #         print_geometry(pointo)
 
 
 if __name__ == '__main__':
@@ -31,10 +18,20 @@ if __name__ == '__main__':
     # g = kml.Geometry()
 
     with open(fname,"rb") as kmlFile:
-        k.from_string(kmlFile.read())
-        # print_child_features(k)
-        print_geometry(k)
+        file = kmlFile.read()
+        k.from_string(file)
+        print_child_features(k)
 
-    # print_child_features(k)
+def coordinates(element):
+    if not getattr(element, 'features', None):
+        return
 
-    # print_coordinates(f)
+    for features in element.features():
+        for f2 in features[0].features:
+            
+            print(f2)
+
+coordinates(k)
+
+
+
