@@ -1,4 +1,6 @@
 from fastkml import kml
+import plotly.express as px
+
 def name_bs(element):
     """ Prints the name of every child node of the given element, recursively """
     if not getattr(element, 'features', None):
