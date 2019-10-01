@@ -15,8 +15,11 @@ if __name__ == '__main__':
     fname = "gps.xml"
 
     k = kml.KML()
+<<<<<<< HEAD
+=======
     # g = kml.Geometry()
 
+>>>>>>> af0bea7358cc57f2d1a5716b7c3e248c169f1a38
     with open(fname,"rb") as kmlFile:
         file = kmlFile.read()
         k.from_string(file)
