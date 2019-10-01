@@ -1,5 +1,6 @@
 from fastkml import kml
-import plotly.express as px
+import pandas as pd
+import plotly.graph_objects as go
 
 def name_bs(element):
     """ Prints the name of every child node of the given element, recursively """
@@ -24,7 +25,28 @@ if __name__ == '__main__':
         while count <= (count_all - 20):
             count
             count = 1 + count
-            print (f2[count].name, f2[count].geometry)
-        coordinates =  str(f2[count].geometry)
+            coordinat = ((str(f2[count].geometry))[6:]).replace('(','').replace(')','').replace(' ',',')
+            latitude, longitude = coordinat.split(',', 1)
+            s = (f2[count].name)
+            if s.find('Loss'):
+                signal = ['0']
+            elif s.find('dBm'):
+                signal = ['-'+(signal.split('-',[1]))-' dBm']
+                
+            d = {'latitude':pd.array([latitude]), 'longitude':pd.array([longitude]), 'signal':pd.array(count)}
+            df = pd.DataFrame(d,index=[count])
+            
+            # print (f2[count].name, coordinat)
+            coordinates =  str(f2[count].geometry)
         coordinates = (coordinates[6:])
         print (coordinates.replace('(','').replace(')','').replace(' ',','))
+# quakes = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/earthquakes-23k.csv')
+fig = go.Figure(go.Densitymapbox(lat=df.latitude, lon=df.longitude, z=df.signal, radius=10))
+fig.update_layout(mapbox_style="stamen-terrain", mapbox_center_lon=180)
+fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
+fig.show()
+
+
+
+
+        
