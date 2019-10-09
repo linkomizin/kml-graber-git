@@ -28,12 +28,13 @@ if __name__ == '__main__':
             coordinat = ((str(f2[count].geometry))[6:]).replace('(','').replace(')','').replace(' ',',')
             latitude, longitude = coordinat.split(',', 1)
             s = (f2[count].name)
-            if s.find('Loss'):
+            if s.find('БС 0'):
                 signal = ['0']
             elif s.find('dBm'):
-                signal = ['-'+(signal.split('-',[1]))-' dBm']
+                signal = (['-'+[signal.split('-',[1])]-' dBm'])
+            print (signal)
                 
-            d = {'latitude':pd.array([latitude]), 'longitude':pd.array([longitude]), 'signal':pd.array(count)}
+            d = {'latitude':pd.array([latitude]), 'longitude':pd.array([longitude]), 'signal':pd.array(signal)}
             df = pd.DataFrame(d,index=[count])
             
             # print (f2[count].name, coordinat)
