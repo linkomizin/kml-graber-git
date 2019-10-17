@@ -13,7 +13,7 @@ def print_geometry(element):
         return
     for feature in element.features():
 
-        print (feature.coordinates)
+        # print (feature.geometry)
         print_geometry(feature)
 
 
@@ -28,14 +28,9 @@ if __name__ == '__main__':
     fname = "gps.xml"
 
     k = kml.KML()
-<<<<<<< HEAD
-=======
-    # g = kml.Geometry()
-
->>>>>>> af0bea7358cc57f2d1a5716b7c3e248c169f1a38
     with open(fname,"rb") as kmlFile:
         k.from_string(kmlFile.read())
-        # print_child_features(k)
+        print_child_features(k)
         print_geometry(k)
 
     # print_child_features(k)
