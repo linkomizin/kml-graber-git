@@ -13,7 +13,6 @@ if __name__ == '__main__':
 
     fname = "gps.xml"
 
-    
     with open(fname,"rb") as kmlFile:
         k = kml.KML()
         file = kmlFile.read()
@@ -30,22 +29,27 @@ if __name__ == '__main__':
             s = (f2[count].name)
             if s.find('БС 0'):
                 signal = ['0']
+                
             elif s.find('dBm'):
-                signal = (['-'+[signal.split('-',(1))]-' dBm'])
+                signal = (s.replace('dBm', ''))
+                bs_signal, signal = (signal.split('-',(1)))
+                signal = ('-' + signal)
+                
+                #signal = str(['-'+([s.split('-',[1])])-' dBm'])
             print (signal)
                 
-            d = {'latitude':pd.array([latitude]), 'longitude':pd.array([longitude]), 'signal':pd.array(signal)}
-            df = pd.DataFrame(d,index=[count])
+            #d = {'latitude':pd.array([latitude]), 'longitude':pd.array([longitude]), 'signal':pd.array(signal)}
+            #df = pd.DataFrame(d,index=[count])
             
             # print (f2[count].name, coordinat)
-            coordinates =  str(f2[count].geometry)
-        coordinates = (coordinates[6:])
-        print (coordinates.replace('(','').replace(')','').replace(' ',','))
+            #coordinates =  str(f2[count].geometry)
+        #coordinates = (coordinates[6:])
+        #print (coordinates.replace('(','').replace(')','').replace(' ',','))
 # quakes = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/earthquakes-23k.csv')
-fig = go.Figure(go.Densitymapbox(lat=df.latitude, lon=df.longitude, z=df.signal, radius=10))
-fig.update_layout(mapbox_style="stamen-terrain", mapbox_center_lon=180)
-fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
-fig.show()
+#fig = go.Figure(go.Densitymapbox(lat=df.latitude, lon=df.longitude, z=df.signal, radius=10))
+#fig.update_layout(mapbox_style="stamen-terrain", mapbox_center_lon=180)
+#fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
+#fig.show()
 
 
 
