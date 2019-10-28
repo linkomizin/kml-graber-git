@@ -29,19 +29,18 @@ if __name__ == '__main__':
             latitude, longitude = coordinat.split(',', 1)
             s = (f2[count].name)
 
-            if s.find('БС 0'):
-                signal = ['0']
-            print (signal)
-            for yes_signail in s:
+
+            for yes_signal in s:
                 if s.find('dBm'):
                     signal = (s.replace('dBm', ''))
                     bs_signal, signal = (signal.split('-', (1)))
                     yes_signal = ('-' + signal)
                     print(yes_signal)
-            for signal in s:
+            for none_signal in s:
                 if s.find('БС 0'):
-                    signal = ['0']
-                    print (signal)
+                    none_signal = ['0']
+            print(len(yes_signal))
+                    # print (none_signal)
 
                 #signal = str(['-'+([s.split('-',[1])])-' dBm'])
             # print (signal)
