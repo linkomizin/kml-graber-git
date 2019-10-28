@@ -9,6 +9,7 @@ def name_bs(element):
     for feature in element.features():
         name_bs(feature)
 
+
 if __name__ == '__main__':
 
     fname = "gps.xml"
@@ -27,16 +28,23 @@ if __name__ == '__main__':
             coordinat = ((str(f2[count].geometry))[6:]).replace('(','').replace(')','').replace(' ',',')
             latitude, longitude = coordinat.split(',', 1)
             s = (f2[count].name)
+
             if s.find('БС 0'):
                 signal = ['0']
-                
-            elif s.find('dBm'):
-                signal = (s.replace('dBm', ''))
-                bs_signal, signal = (signal.split('-',(1)))
-                signal = ('-' + signal)
-                
-                #signal = str(['-'+([s.split('-',[1])])-' dBm'])
             print (signal)
+            for yes_signail in s:
+                if s.find('dBm'):
+                    signal = (s.replace('dBm', ''))
+                    bs_signal, signal = (signal.split('-', (1)))
+                    yes_signal = ('-' + signal)
+                    print(yes_signal)
+            for signal in s:
+                if s.find('БС 0'):
+                    signal = ['0']
+                    print (signal)
+
+                #signal = str(['-'+([s.split('-',[1])])-' dBm'])
+            # print (signal)
                 
             #d = {'latitude':pd.array([latitude]), 'longitude':pd.array([longitude]), 'signal':pd.array(signal)}
             #df = pd.DataFrame(d,index=[count])
