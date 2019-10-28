@@ -22,24 +22,32 @@ if __name__ == '__main__':
         f2 = list(features[0].features())
         count_all = len(f2)
         count = 0
-        while count <= (count_all - 20):
+        while count <= (count_all - 1):
             count
-            count = 1 + count
+            count = count - 1
             coordinat = ((str(f2[count].geometry))[6:]).replace('(','').replace(')','').replace(' ',',')
             latitude, longitude = coordinat.split(',', 1)
             s = (f2[count].name)
+            
+            
 
 
             for yes_signal in s:
-                if s.find('dBm'):
+                try:
+                    
+                    s.find('dBm')
                     signal = (s.replace('dBm', ''))
+                    
                     bs_signal, signal = (signal.split('-', (1)))
                     yes_signal = ('-' + signal)
+
                     print(yes_signal)
-            for none_signal in s:
-                if s.find('БС 0'):
-                    none_signal = ['0']
-            print(len(yes_signal))
+                except ValueError:
+                    pass    
+            # for none_signal in s:
+            #     if s.find('БС 0'):
+            #         none_signal = ['0']
+            # print(len(yes_signal))
                     # print (none_signal)
 
                 #signal = str(['-'+([s.split('-',[1])])-' dBm'])
