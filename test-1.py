@@ -20,35 +20,46 @@ if __name__ == '__main__':
         k.from_string(file)
         features =list(k.features())
         f2 = list(features[0].features())
-        count_all = len(f2)
+        count_all = len(f2) - 1
         count = 0
-        while count <= (count_all - 1):
+        while count <= count_all:
             count
             count = count - 1
-            coordinat = ((str(f2[count].geometry))[6:]).replace('(','').replace(')','').replace(' ',',')
-            latitude, longitude = coordinat.split(',', 1)
+            # coordinat = ((str(f2[count].geometry))[6:]).replace('(','').replace(')','').replace(' ',',')
+            # latitude, longitude = coordinat.split(',', 1)
             s = (f2[count].name)
             
             
 
 
-            for yes_signal in s:
-                try:
-                    
-                    s.find('dBm')
-                    signal = (s.replace('dBm', ''))
-                    
-                    bs_signal, signal = (signal.split('-', (1)))
-                    yes_signal = ('-' + signal)
+    for yes_signal in s:
+        try:
+            if s.find('dBm'):
+                
+                signal = (s.replace('dBm', ''))
+                
+                bs_signal, signal = (signal.split('-', (1)))
+                yes_signal = ('-' + signal)
+            else:
+                continue
+            print(yes_signal)
+        except ValueError:
+            pass    
+    for no_signal in s:
+        try:
+            if s.find('БС 0'):
+                
+                no_signal = ['0']
+            else:
+                continue
+                
+            print (no_signal)
+        
+        except ValueError:
+            pass
 
-                    print(yes_signal)
-                except ValueError:
-                    pass    
-            # for none_signal in s:
-            #     if s.find('БС 0'):
-            #         none_signal = ['0']
-            # print(len(yes_signal))
-                    # print (none_signal)
+                    # print(len(yes_signal))
+
 
                 #signal = str(['-'+([s.split('-',[1])])-' dBm'])
             # print (signal)
