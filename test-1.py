@@ -55,38 +55,33 @@ if __name__ == '__main__':
         features =list(k.features())
         f2 = list(features[0].features())
 
-    for s in f2:
+   # for s in f2:
         a = 0
         while a < len(f2):
             a = a + 1
             s = f2[a].name
             # print(s)
-            try:
-                if s.find('dBm'):
+            if s.find('dBm'):
+                signal = (s.replace('dBm', ''))    
+#            s.find('dBm')
+                signal = (s.replace('dBm', ''))
                 
-                    signal = (s.replace('dBm', ''))
-                
-                    bs_signal, signal = (signal.split('-', (1)))
-                    yes_signal = ('-' + signal)
-                else:
-                    continue
-                # print(a," : --- " ,yes_signal)
-            except ValueError:
-                pass
-
-            for yes_signal in s:       
-                try:
-                    if s.find('БС 0'):
-                    
-                        no_signal = ['0']
-                        print (a," : --- " ,no_signal)
-                    else:
-                        continue
+                bs_signal, signal = (signal.split('-', (1)))
+                yes_signal = ('-' + signal)
+            else:
+                continue
+            print(a," : --- " ,yes_signal)
+            
+            if s.find('БС 0'):
+                no_signal = ['0']
+                print (a," : --- " ,no_signal)
+            else:
+                continue
                 
                 
         
-                except ValueError:
-                    pass    
+#                except ValueError:
+ #                   pass    
         
         # print (s)
         # count_all = len(f2) - 1
@@ -120,8 +115,3 @@ if __name__ == '__main__':
 #fig.update_layout(mapbox_style="stamen-terrain", mapbox_center_lon=180)
 #fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 #fig.show()
-
-
-
-
-        
