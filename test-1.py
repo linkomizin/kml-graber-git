@@ -8,26 +8,29 @@ def name_bs(element):
         return
     for feature in element.features():
         name_bs(feature)
-
-
-    
-        # if a == (len(f2) - 1):
-        #     break
+        if a == (len(f2) - 1):
+            break
 def signal_y():
     
-    for yes_signal in s:
-        try:
-            if s.find('dBm'):
-                
-                signal = (s.replace('dBm', ''))
-                
-                bs_signal, signal = (signal.split('-', (1)))
-                yes_signal = ('-' + signal)
-            else:
-                continue
-            # print(yes_signal)
-        except ValueError:
-            pass    
+    try:
+        if s.find('dBm'):
+            
+            signal = (s.replace('dBm', ''))
+            
+            bs_signal, signal = (signal.split('-', (1)))
+            yes_signal = ('-' + signal)
+        
+            
+        else:
+            continue
+            
+    
+    except ValueError:
+
+        pass    
+
+
+
 def signal_n():
     for no_signal in s:
         try:
@@ -60,23 +63,25 @@ if __name__ == '__main__':
         while a < len(f2):
             a = a + 1
             s = f2[a].name
+            signal_y()
+            print (a," : --- " ,(signal_y())
             # print(s)
-            if s.find('dBm'):
-                signal = (s.replace('dBm', ''))    
-#            s.find('dBm')
-                signal = (s.replace('dBm', ''))
+#             if s.find('dBm'):
+#                 signal = (s.replace('dBm', ''))    
+# #            s.find('dBm')
+#                 signal = (s.replace('dBm', ''))
                 
-                bs_signal, signal = (signal.split('-', (1)))
-                yes_signal = ('-' + signal)
-            else:
-                continue
-            print(a," : --- " ,yes_signal)
+#                 bs_signal, signal = (signal.split('-', (1)))
+#                 yes_signal = ('-' + signal)
+#             else:
+#                 continue
+            # print(a," : --- " ,yes_signal)
             
-            if s.find('БС 0'):
-                no_signal = ['0']
-                print (a," : --- " ,no_signal)
-            else:
-                continue
+            # if s.find('БС 0'):
+            #     no_signal = ['0']
+            #     print (a," : --- " ,no_signal)
+            # else:
+            #     continue
                 
                 
         
