@@ -1,6 +1,6 @@
 from fastkml import kml
-import pandas as pd
-import plotly.graph_objects as go
+# import pandas as pd
+# import plotly.graph_objects as go
 
 # def name_bs(element):
 #     """ Prints the name of every child node of the given element, recursively """
