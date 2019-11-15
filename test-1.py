@@ -1,6 +1,6 @@
 from fastkml import kml
-# import pandas as pd
-# import plotly.graph_objects as go
+#mport pandas as pd
+#mport plotly.graph_objects as go
 
 # def name_bs(element):
 #     """ Prints the name of every child node of the given element, recursively """
@@ -11,34 +11,39 @@ from fastkml import kml
 #         if a == (len(f2) - 1):
 #             break
 def signal_y():
-    
-    # try:
-    if s.find('dBm'):
-        
-        signal = (s.replace('dBm', ''))
-        
-        bs_signal, signal = (signal.split('-', (1)))
-        yes_signal = ('-' + signal)
+
+	signal = (s.replace('dBm',''))
+
+	df, signal = (signal.split("-",(1)))
+	df = 0
+	yes_signal = ('-' + signal)
+	print (a," : --- " , yes_signal)
+
+
+
+
 
     # except ValueError:
     #     pass
 
 
-# def signal_n():
+def signal_n():
+	no_signal = ['0']
+	print (a," : --- " , no_signal)
 #     for no_signal in s:
 #         try:
 #             if s.find('БС 0'):
-                
+
 #                 no_signal = ['0']
 #             else:
 #                 continue
-                
+
 #             # print (no_signal)
-        
+
 #         except ValueError:
 #                pass
-        
-        
+
+
 
 if __name__ == '__main__':
 
@@ -51,8 +56,15 @@ if __name__ == '__main__':
         features =list(k.features())
         f2 = list(features[0].features())
         a = 0
-        while a < len(f2):
+        while a < len(f2) - 1:
             a = a + 1
             s = f2[a].name
-            signal_y()
+            if "dBm" in s:#s.find("dBm"):
+                signal_y()
+            else:
+                s.find('БС 0')
+                signal_n()
+            
+                continue
+
             # print (a," : --- " ,(signal_y())
