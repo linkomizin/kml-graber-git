@@ -20,9 +20,9 @@ import plotly.graph_objects as go
 # 	# print (a," : --- " , yes_signal)
 
 
-def signal_n():
-	no_signal = ['0']
-	# print (a," : --- " , no_signal)
+# def signal_no():
+# 	no_signal = ['0']
+# 	# print (a," : --- " , no_signal)
 
 
 
@@ -40,26 +40,37 @@ if __name__ == '__main__':
         while a < len(f2) - 1:
             a = a + 1
             s = f2[a].name
-            all_signal.update({'nuber': a})
+            # all_signal.update({'number': a})
+            signal_all = []
             if "dBm" in s:
-                # signal_y()
+                
                 signal = (s.replace('dBm',''))
 
                 de, signal = (signal.split("-",(1)))
                 de = 0
-                y_signal = ('-' + signal)
-                all_signal.update({'signal': y_signal})
-            else:
-                s.find('БС 0')
-                signal_n()
-                all_signal.update({'signal': signal_n})
-                continue
-            coordinat = ((str(f2[len(f2) - 1].geometry))[6:]).replace('(', '').replace(')', '').replace(' ', ',')
+                signal_y = ('-' + signal)
+                signal_all.append(signal_y)
+                # all_signal.update({'signal': y_signal})
+                
+            else :
+                if 'БС 0' in s:
+                # signal_n = (s.find('БС 0'))
+                    signal_n = ('0')
+                # all_signal.update({'signal': signal_n})
+                    signal_all.append(signal_n)
+                    
+            
+            coordinat = ((str(f2[a].geometry))[6:]).replace('(', '').replace(')', '').replace(' ', ',')
             latitude, longitude = coordinat.split(',', 1)
             #d = {'latitude':pd.array([latitude]), 'longitude':pd.array([longitude]), 'signal':pd.array([y_signal])}
-            all_signal.update({'latitude': latitude, 'longitude': longitude})
-        df = pd.DataFrame(all_signal, index=[len(f2) -1 ])
-        fig = go.Figure(go.Densitymapbox(lat=df.latitude, lon=df.longitude, z=df.signal, radius=10))
-        fig.update_layout(mapbox_style="stamen-terrain", mapbox_center_lon=180)
-        fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
-        fig.show()
+            # all_signal.update({'latitude': latitude, 'longitude': longitude})
+
+            point =[a, signal_all, latitude, longitude]
+        all_signal = dict({a = a, signal_all = signal_all, latitude = latitude, longitude = longitude})
+        print(all_signal)
+
+        # df = pd.DataFrame(all_signal, index=[len(f2) -1 ])
+        # fig = go.Figure(go.Densitymapbox(lat=df.latitude, lon=df.longitude, z=df.signal, radius=10))
+        # fig.update_layout(mapbox_style="stamen-terrain", mapbox_center_lon=180)
+        # fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
+        # fig.show()
