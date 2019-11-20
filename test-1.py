@@ -29,7 +29,7 @@ def signal_n():
 if __name__ == '__main__':
 
     fname = "gps.xml"
-
+    all_signal = {}
     with open(fname,"rb") as kmlFile:
         k = kml.KML()
         file = kmlFile.read()
@@ -40,6 +40,7 @@ if __name__ == '__main__':
         while a < len(f2) - 1:
             a = a + 1
             s = f2[a].name
+            all_signal.update({'nuber': a})
             if "dBm" in s:
                 # signal_y()
                 signal = (s.replace('dBm',''))
@@ -47,14 +48,17 @@ if __name__ == '__main__':
                 de, signal = (signal.split("-",(1)))
                 de = 0
                 y_signal = ('-' + signal)
+                all_signal.update({'signal': y_signal})
             else:
                 s.find('БС 0')
-                signal_n()            
+                signal_n()
+                all_signal.update({'signal': signal_n})
                 continue
-            coordinat = ((str(f2[len(f2) - 1].geometry))[6:]).replace('(','').replace(')','').replace(' ',',')
+            coordinat = ((str(f2[len(f2) - 1].geometry))[6:]).replace('(', '').replace(')', '').replace(' ', ',')
             latitude, longitude = coordinat.split(',', 1)
-            d = {'latitude':pd.array([latitude]), 'longitude':pd.array([longitude]), 'signal':pd.array([y_signal])}
-            df = pd.DataFrame(d,index=[len(f2) -1 ])
+            #d = {'latitude':pd.array([latitude]), 'longitude':pd.array([longitude]), 'signal':pd.array([y_signal])}
+            all_signal.update({'latitude': latitude, 'longitude': longitude})
+        df = pd.DataFrame(all_signal, index=[len(f2) -1 ])
         fig = go.Figure(go.Densitymapbox(lat=df.latitude, lon=df.longitude, z=df.signal, radius=10))
         fig.update_layout(mapbox_style="stamen-terrain", mapbox_center_lon=180)
         fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
