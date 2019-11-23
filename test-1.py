@@ -1,35 +1,12 @@
 from fastkml import kml
 import pandas as pd
 import plotly.graph_objects as go
-
-# def name_bs(element):
-#     """ Prints the name of every child node of the given element, recursively """
-#     if not getattr(element, 'features', None):
-#         return
-#     for feature in element.features():
-#         name_bs(feature)
-#         if a == (len(f2) - 1):
-#             break
-# def signal_y():
-
-# 	signal = (s.replace('dBm',''))
-
-# 	df, signal = (signal.split("-",(1)))
-# 	df = 0
-# 	yes_signal = ('-' + signal)
-# 	# print (a," : --- " , yes_signal)
-
-
-# def signal_no():
-# 	no_signal = ['0']
-# 	# print (a," : --- " , no_signal)
-
-
+from pprint import pprint
 
 if __name__ == '__main__':
 
-    fname = "gps.xml"
-    all_signal = {}
+    fname = "gps.kml"
+    
     with open(fname,"rb") as kmlFile:
         k = kml.KML()
         file = kmlFile.read()
@@ -37,11 +14,21 @@ if __name__ == '__main__':
         features =list(k.features())
         f2 = list(features[0].features())
         a = 0
+        
+        sorce_all = []
+        all_signal = []
+        num_point = []
+        coordinat_all = []
+        latitude_all = []
+        longitude_all = []
+        signal_all = []
+
         while a < len(f2) - 1:
             a = a + 1
             s = f2[a].name
-            # all_signal.update({'number': a})
-            signal_all = []
+            
+            
+            num_point.append(a)
             if "dBm" in s:
                 
                 signal = (s.replace('dBm',''))
@@ -50,27 +37,32 @@ if __name__ == '__main__':
                 de = 0
                 signal_y = ('-' + signal)
                 signal_all.append(signal_y)
-                # all_signal.update({'signal': y_signal})
+               
                 
             else :
                 if 'БС 0' in s:
-                # signal_n = (s.find('БС 0'))
+                
                     signal_n = ('0')
-                # all_signal.update({'signal': signal_n})
+                
                     signal_all.append(signal_n)
                     
             
             coordinat = ((str(f2[a].geometry))[6:]).replace('(', '').replace(')', '').replace(' ', ',')
-            latitude, longitude = coordinat.split(',', 1)
-            #d = {'latitude':pd.array([latitude]), 'longitude':pd.array([longitude]), 'signal':pd.array([y_signal])}
-            # all_signal.update({'latitude': latitude, 'longitude': longitude})
+            longitude, latitude = coordinat.split(',', 1)
+            
+            latitude_all.append(latitude)
+            longitude_all.append(longitude)
+            
+            point =[num_point, signal_all, latitude_all, longitude_all]
+        
+        allio = {"num_point": num_point, "signal_all": signal_all, "latitude_all": latitude_all, "longitude_all": longitude_all}
+        # pprint(allio)
+        
+        
+        
+        df = pd.DataFrame(allio, index=[num_point])
 
-            point =[a, signal_all, latitude, longitude]
-        all_signal = dict({a = a, signal_all = signal_all, latitude = latitude, longitude = longitude})
-        print(all_signal)
-
-        # df = pd.DataFrame(all_signal, index=[len(f2) -1 ])
-        # fig = go.Figure(go.Densitymapbox(lat=df.latitude, lon=df.longitude, z=df.signal, radius=10))
-        # fig.update_layout(mapbox_style="stamen-terrain", mapbox_center_lon=180)
-        # fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
-        # fig.show()
+        fig = go.Figure(go.Densitymapbox(lat=df.latitude_all, lon=df.longitude_all, z=df.signal_all, radius=10))
+        fig.update_layout(mapbox_style="stamen-terrain", mapbox_center_lon=180)
+        fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
+        fig.show()
