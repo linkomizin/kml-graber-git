@@ -2,12 +2,24 @@ from fastkml import kml
 import pandas as pd
 import plotly.graph_objects as go
 from pprint import pprint
+import os
+
+def file():
+    
+    b = 0
+    while b < len(files):
+        b += 1
+
 
 if __name__ == '__main__':
-
-    fname = "gps.kml"
+    files=[]
+    for file in os.listdir("/Users/akira/Documents/code/py/kml-graber-git/"):
+        if file.endswith(".kml"):
+            files.append(file)
+            print(os.path.join(file))
+    # fname = "gps.kml"
     
-    with open(fname,"rb") as kmlFile:
+    with open(files[file],"rb") as kmlFile:
         k = kml.KML()
         file = kmlFile.read()
         k.from_string(file)
@@ -66,3 +78,5 @@ if __name__ == '__main__':
         fig.update_layout(mapbox_style="stamen-terrain", mapbox_center_lon=180)
         fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
         fig.show()
+        b += 1
+        
