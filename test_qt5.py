@@ -9,6 +9,7 @@ import os
 
 
 
+
 class MyWindow(QtWidgets.QWidget):
     def __init__(self, parent=None):
         QtWidgets.QWidget.__init__(self, parent)
@@ -51,12 +52,8 @@ class MyWindow(QtWidgets.QWidget):
             )
         self.fileName = self.f[0]
         self.label2.setText(self.fileName)
-        self.My_read_kml.read_file(fileName)
-
-
-
-
-
+        return self.fileName
+        read_kml()
 
 
 
@@ -66,6 +63,65 @@ class MyWindow(QtWidgets.QWidget):
         #button = QtWidgets.QPushButton("Нажми меня")
         #self.button.setDisabled(True)
 
+def read_kml():
+    fileName = (MyWindow.open_file())
+    with open(fileName, 'rb') as kmlFile:
+        k = kml.KML()
+        file = kmlFile.read()
+        k.from_string(file)
+        features =list(k.features())
+        f2 = list(features[0].features())
+        a = 0
+
+        sorce_all = []
+        all_signal = []
+        num_point = []
+        coordinat_all = []
+        latitude_all = []
+        longitude_all = []
+        signal_all = []
+
+        while a < len(f2) - 1:
+            a = a + 1
+            s = f2[a].name
+
+
+            num_point.append(a)
+            if "dBm" in s:
+
+                signal = (s.replace('dBm',''))
+
+                de, signal = (signal.split("-",(1)))
+                de = 0
+                signal_y = ('-' + signal)
+                signal_all.append(signal_y)
+
+
+            else :
+                if 'БС 0' in s:
+
+                    signal_n = ('0')
+
+                    signal_all.append(signal_n)
+
+
+            coordinat = ((str(f2[a].geometry))[6:]).replace('(', '').replace(')', '').replace(' ', ',')
+            longitude, latitude = coordinat.split(',', 1)
+
+            latitude_all.append(latitude)
+            longitude_all.append(longitude)
+
+            point =[num_point, signal_all, latitude_all, longitude_all]
+
+        allio = {"num_point": num_point, "signal_all": signal_all, "latitude_all": latitude_all, "longitude_all": longitude_all}
+        # pprint(allio)
+        with open('mifile.txt', 'w') as mi:
+            mi.write(allio)
+
+
+
+
+
 if __name__ == "__main__" :
 
     app = QtWidgets.QApplication(sys.argv)
@@ -74,10 +130,7 @@ if __name__ == "__main__" :
     window.setWindowTitle("ООП-стиль создания окна")
     window.resize(300, 70)
     window.show() # Отображаем окно
-
-
     #button.show()
+
     sys.exit(app.exec_()) # Запускаем цикл обработки событий
 
-
-    fileName = ""
