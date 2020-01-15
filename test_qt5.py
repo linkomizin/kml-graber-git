@@ -52,8 +52,8 @@ class MyWindow(QtWidgets.QWidget):
             )
         self.fileName = self.f[0]
         self.label2.setText(self.fileName)
-        return self.fileName
-        read_kml()
+        # return self.fileName
+        # read_kml()
 
 
 
