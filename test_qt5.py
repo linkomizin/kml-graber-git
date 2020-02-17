@@ -116,7 +116,7 @@ def read_kml(fileName):
         allio = {"num_point": num_point, "signal_all": signal_all, "latitude_all": latitude_all, "longitude_all": longitude_all}
         # pprint(allio)
         with open('mifile.txt', 'w') as mi:
-            mi.write(allio)
+            mi.write(str(allio))
 
 
 
