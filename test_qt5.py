@@ -53,7 +53,7 @@ class MyWindow(QtWidgets.QWidget):
         self.fileName = self.f[0]
         self.label2.setText(self.fileName)
         # return self.fileName
-        # read_kml()
+        read_kml(self.fileName)
 
 
 
@@ -63,8 +63,8 @@ class MyWindow(QtWidgets.QWidget):
         #button = QtWidgets.QPushButton("Нажми меня")
         #self.button.setDisabled(True)
 
-def read_kml():
-    fileName = (MyWindow.open_file())
+def read_kml(fileName):
+    print(fileName)
     with open(fileName, 'rb') as kmlFile:
         k = kml.KML()
         file = kmlFile.read()
