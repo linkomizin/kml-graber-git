@@ -118,6 +118,13 @@ def read_kml(fileName):
         with open('mifile.txt', 'w') as mi:
             mi.write(str(allio))
 
+        df = pd.DataFrame(allio, index=[num_point])
+
+        fig = go.Figure(go.Densitymapbox(lat=df.latitude_all, lon=df.longitude_all, z=df.signal_all, radius=10))
+        fig.update_layout(mapbox_style="stamen-terrain", mapbox_center_lon=180)
+        fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
+        fig.show()
+
 
 
 
