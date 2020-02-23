@@ -1,84 +1,81 @@
-from fastkml import kml
 import pandas as pd
 import plotly.graph_objects as go
-from pprint import pprint
-import os
-import test_qt5
+from plotly.subplots import make_subplots
+import pandas as pd
+from geopy import distance
+import csv
+
+
+
+allio = ('dict.csv')
+df = pd.read_csv(allio)
+fig = go.Figure(go.Densitymapbox(lat=df.latitude_all, lon=df.longitude_all, z=df.signal_all, radius=10))
+fig.update_layout(mapbox_style="stamen-terrain", mapbox_center_lon=180)
+fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
+# fig.show()
 
 
 
 
-class My_read_kml ():
+
+points=[]
+with open (allio, 'r') as file:
+    reader = csv.DictReader(file)
+    
+    for row in reader:
+    
+        point = [row['latitude_all'], row['longitude_all']]
+
+        points.append(point)
+q =len(points)
+
+a = 0
+dists=[]
+while a < q:
+    point1 = points[a]
+    # print(point1)
+    
+    a = a + 1
+    point2 =points[a]
+    # print(point1)
+    a = a + 1
 
 
-    def read_file ():
+    dist = distance.distance(point1, point2).km
+    dists.append(dist)
+    if a == q:
+        print(a)
+        break
+def distssum(dists):
+    a = 0
+    for i in dists:
+        a = a + i
+    return a
 
-        if __name__ == '__main__':
-            # files=[]
-            # for file in os.listdir("/Users/akira/Documents/code/py/kml-graber-git/"):
-            #     if file.endswith(".kml"):
-            #         files.append(file)
-            #         print(os.path.join(file))
-
-            # fname = "gps.kml"
-            fileName = ""
-
-            with open(fileName,"rb") as kmlFile:
-                k = kml.KML()
-                file = kmlFile.read()
-                k.from_string(file)
-                features =list(k.features())
-                f2 = list(features[0].features())
-                a = 0
-
-                sorce_all = []
-                all_signal = []
-                num_point = []
-                coordinat_all = []
-                latitude_all = []
-                longitude_all = []
-                signal_all = []
-
-                while a < len(f2) - 1:
-                    a = a + 1
-                    s = f2[a].name
+dis1 = distssum(dists)
+dis1 = round(dis1, 3)
+dis1 = (dis1, "пройдено километров")
+dis1 = str(dis1)
 
 
-                    num_point.append(a)
-                    if "dBm" in s:
-
-                        signal = (s.replace('dBm',''))
-
-                        de, signal = (signal.split("-",(1)))
-                        de = 0
-                        signal_y = ('-' + signal)
-                        signal_all.append(signal_y)
+dis2 = dis1
+# dis2 = (distssum(dists), 'km'.encode())
 
 
-                    else :
-                        if 'БС 0' in s:
+fig = go.Figure()
 
-                            signal_n = ('0')
+fig.add_trace(
+    go.Scatter(
+        x=df["num_point"],
+        y=df["signal_all"],
+        mode="lines",
+        name="signal"
+    )    
+)
+fig.update_layout(
+    height=800,
+    showlegend=False,
+    title_text= (dis2) ,
+)
 
-                            signal_all.append(signal_n)
-
-
-                    coordinat = ((str(f2[a].geometry))[6:]).replace('(', '').replace(')', '').replace(' ', ',')
-                    longitude, latitude = coordinat.split(',', 1)
-
-                    latitude_all.append(latitude)
-                    longitude_all.append(longitude)
-
-                    point =[num_point, signal_all, latitude_all, longitude_all]
-
-            allio = {"num_point": num_point, "signal_all": signal_all, "latitude_all": latitude_all, "longitude_all": longitude_all}
-            # pprint(allio)
-
-
-
-            df = pd.DataFrame(allio, index=[num_point])
-
-            fig = go.Figure(go.Densitymapbox(lat=df.latitude_all, lon=df.longitude_all, z=df.signal_all, radius=10))
-            fig.update_layout(mapbox_style="stamen-terrain", mapbox_center_lon=180)
-            fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
-            fig.show()
+fig.show()

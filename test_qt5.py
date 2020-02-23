@@ -6,6 +6,7 @@ import pandas as pd
 import plotly.graph_objects as go
 from pprint import pprint
 import os
+import csv
 
 
 
@@ -38,9 +39,9 @@ class MyWindow(QtWidgets.QWidget):
         self.button3.clicked.connect(self.open_file)
 
         self.progressBar = QtWidgets.QProgressBar(self)
-        # self.progressBar.adjustSize()
+      
         self.vbox.addWidget(self.progressBar)
-        #  self.progressBar.setAlignment(QtCore.Qt.AlignHCenter)
+       
 
 
 
@@ -58,11 +59,10 @@ class MyWindow(QtWidgets.QWidget):
             )
         self.fileName = self.f[0]
         self.label2.setText(self.fileName)
-        # return self.fileName
+        
         self.read_kml(self.fileName)
 
-        # self.progressBar = QtWidgets.QProgressBar(self)
-        # self.progressBar.setGeometry(200, 80, 250, 20)
+        
 
 
 
@@ -82,6 +82,8 @@ class MyWindow(QtWidgets.QWidget):
             f2 = list(features[0].features())
             a = 0
 
+
+            # списки по каждым данным
             sorce_all = []
             all_signal = []
             num_point = []
@@ -89,6 +91,8 @@ class MyWindow(QtWidgets.QWidget):
             latitude_all = []
             longitude_all = []
             signal_all = []
+
+           
 
             while a < len(f2) - 1:
                 a = a + 1
@@ -99,7 +103,7 @@ class MyWindow(QtWidgets.QWidget):
 
                 if "dBm" in s:
 
-                    signal = (s.replace('dBm',''))
+                    signal = (s.replace('dBm','').replace(' ', ''))
 
                     de, signal = (signal.split("-",(1)))
                     de = 0
@@ -121,10 +125,31 @@ class MyWindow(QtWidgets.QWidget):
                 latitude_all.append(latitude)
                 longitude_all.append(longitude)
 
-                point =[num_point, signal_all, latitude_all, longitude_all]
+                
+            point = [[num_point], [signal_all], [latitude_all], [longitude_all]]
 
             allio = {"num_point": num_point, "signal_all": signal_all, "latitude_all": latitude_all, "longitude_all": longitude_all}
             # pprint(allio)
+
+            
+
+            with open('test.csv', 'wt') as fout:
+                cout = csv.DictWriter(fout, ['num_point', 'signal_all', 'latitude_all', 'longitude_all'] )
+                cout.writeheader()
+                cout.writerow(allio)
+                
+
+
+            with open('dict.csv', 'w') as f:
+                
+
+                w = csv.writer(f)
+                w.writerow(allio.keys())
+                for toi in zip(num_point, signal_all, latitude_all, longitude_all):
+                    w.writerow(toi)
+
+
+            
             with open('mifile.txt', 'w') as mi:
                 mi.write(str(allio))
 
@@ -133,6 +158,19 @@ class MyWindow(QtWidgets.QWidget):
             fig = go.Figure(go.Densitymapbox(lat=df.latitude_all, lon=df.longitude_all, z=df.signal_all, radius=10))
             fig.update_layout(mapbox_style="stamen-terrain", mapbox_center_lon=180)
             fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
+            fig.show()
+
+            fig = go.Figure()
+
+            fig.add_trace(
+                go.Scatter(
+                    x=df["num_point"],
+                    y=df["signal_all"],
+                    mode="lines",
+                    name="signal"
+                )    
+            )
+            
             fig.show()
 
 
